@@ -31,5 +31,18 @@ public class _01_class_interface {
 //            public abstract void abc();
 //            public abstract void bcd();
 //        }
+
+        // 메모리 구조
+        class D {
+            int m = 3;
+            void print() {
+                System.out.println("객체 생서 및 활용");
+            }
+        }
+
+        // 필드와 메서드 활용
+        D d = new D();
+        System.out.println(d.m); // 필드 활용
+        d.print(); // 메서드 활용
     }
 }
