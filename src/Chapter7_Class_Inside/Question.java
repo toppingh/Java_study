@@ -101,7 +101,7 @@ public class Question {
         System.out.println(c.arraySum(data1));
         System.out.println(c.arraySum(data2));
         System.out.println(c.arraySum(new int[] {1, 2, 3}));
-        System.out.println(c.arraySum({1, 2, 3)); // 메서드에 매개변수를 넘기면 선언(int[] array)과 값의 대입(array = {1, 2, 3})이 분리되어 실행된다.
+//        System.out.println(c.arraySum({1, 2, 3})); // 메서드에 매개변수를 넘기면 선언(int[] array)과 값의 대입(array = {1, 2, 3})이 분리되어 실행된다.
         // int[] a = {1, 2, 3}의 객체 생성 방법은 선언과 동시에만 사용할 수 있으므로 분리가 불가능해 오류가 발생한다!
 
         A4 d = new A4();
