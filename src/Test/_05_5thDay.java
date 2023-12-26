@@ -29,6 +29,7 @@ class Solution12 {
 // 각도 구하기 - 삼항 연산자!!
 class Solution13 {
     public int solution(int angle) {
+
         return angle == 180 ? 4 : angle < 90 ? 1 : angle == 90 ? 2 : angle > 90 ? 3 : 0;
     }
 }
