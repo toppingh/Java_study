@@ -33,5 +33,16 @@ class Solution29 {
     }
 }
 
+// 배열 뒤집기 (내 풀이)
+class Solution30 {
+    public int[] solution(int[] num_list) {
+        int[] answer = {num_list.length};
+        for(int i = num_list.length; i > 0; i--) {
+            answer[num_list.length - i] = num_list[i];
+        }
+        return answer;
+    }
+}
+
 public class _10_10Day {
 }
