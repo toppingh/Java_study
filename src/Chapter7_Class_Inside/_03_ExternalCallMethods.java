@@ -1,8 +1,8 @@
 package Chapter7_Class_Inside;
 
-// 클래스 정의!
+// 클래스 정의
 class C {
-    // 리턴 타입 void, 입력매개 변수가 없을 때 => 리턴되는 값x
+    // 리턴 타입 void, 입력매개 변수가 없을 때 => 리턴되는 값은 없음
     void print() {
         System.out.println("안녕");
     }
@@ -20,10 +20,10 @@ class C {
     // 리턴 타입 void, 내부에 리턴 포함(=> 함수 종료)
     void printMonth(int m) {
         if (m < 0 || m > 12) {
-            System.out.println("잘못된 입력");
+            System.out.println("잘못된 입력입니다.");
             return; // 함수 종료
         }
-        System.out.println(m + "월입니다.");
+        System.out.println(m + "월 입니다.");
     }
 }
 
